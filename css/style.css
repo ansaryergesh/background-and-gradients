@@ -33,3 +33,130 @@ li {
 
 /* header */
 
+.img-logo {
+    height: 2rem;
+    width: 2rem; 
+    vertical-align: text-bottom;
+    
+}
+
+.header {
+    min-width: 100rem;
+	max-width: 140rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header-nav{
+    background-image: url(../images/fon.jpg);
+    background-size: cover;
+    background-position: 50% 100%;
+	height: 75vh;
+}
+.nav-bar {
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+
+.nav-bar ul {
+    height: 4rem;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 5px;
+    align-items: center;
+    background-image: linear-gradient(#808080, #666, #5e5e5e, #707070, #808080);
+
+}
+
+
+
+.nav-bar li  {  
+    display: inline-block;
+    padding: 8.1px 33px;
+    color: #e8e8e8;
+    font-size: 13px;
+    border-right: 1px solid #989898;
+}
+
+.nav-bar li:last-child, .nav-bar li:last-child:hover {
+    border:none;
+    background-image: linear-gradient(#808080, #666, #5e5e5e, #707070, #808080);
+}
+
+.nav-bar li:hover {
+
+    cursor: pointer;
+    background-image: linear-gradient(#242323, rgba(59, 57, 57, 0.74), #313030b9, #2e2d2d62, #5755557a);
+}
+
+
+.box {
+    width: 8rem;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 10px;
+    vertical-align: text-bottom;
+}
+
+.heading-text {
+    backface-visibility: hidden;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.heading-main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 100; 
+}
+
+.heading-2 {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100
+}
+.heading-paragraph {
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+.heading-paragraph:hover, .footer-right li a:hover , .footer-left a:hover {
+    text-decoration: underline;
+}
+
+.play {
+    margin-left:1rem;
+    vertical-align: bottom;
+    height: 4rem;
+}
+.protocol {
+    display: flex;
+}
+
+.images {
+    width: 99.9%;
+    height: 99%;
+}
+
+
+.footer {
+    width: 70%;
+    box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.footer-right {
+    float: right;
+    font-size: 1rem;  
+}
+.footer-right li a, .footer-left a {
+    color:blue;
+    text-decoration: none;
+}
+
+.flag {
+    vertical-align: bottom;
+}
+.footer-left {
+    font-size: 1rem;  
+}
