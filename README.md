@@ -12,4 +12,4 @@ Author:
 The Website
 ===
 
-https://rawcdn.githack.com/ansaryergesh/background-and-gradients/develop/index.html
+https://rawcdn.githack.com/ansaryergesh/background-and-gradients/1ad373ce5fc03a8265630a4d5982786f0e6f8d05/index.html
