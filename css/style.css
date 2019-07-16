@@ -33,8 +33,6 @@ li {
 
 /* header */
 
-
-
 .header {
     min-width: 100rem;
 	max-width: 140rem;
@@ -103,38 +101,43 @@ nav a {
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.heading-text {
-    backface-visibility: hidden;
-    color:white;
-    text-align: center;
-    cursor: pointer;
-}
+/* Header Texts */
 
-.heading-main {
+
+.hero>div{
+    width: 98rem;
+    height: 40rem;
+    margin: auto;
+    padding-top: 5rem;
+    
+}
+.text1{
+    background: 
+    url(../images/your_verse_title_small.png) no-repeat 0px 0px;    
+    z-index: 2;
+    height: 10rem;
+}
+.text2{
+    background: 
+    url(../images/your_verse_subhead_small.png) no-repeat 0 0;
+    z-index: 2;
+    height: 10rem;
+}
+.text3{
+    background: 
+    url(../images/cta_your_verse_27pt.png) no-repeat 0 0;
+    z-index: 2;
+    height: 3.5rem;
+}
+.text3:hover {
+    background-position: bottom;
+}
+.hero a{
     display: block;
-    font-size: 6rem;
-    font-weight: 100; 
 }
 
-.heading-2 {
-    display: block;
-    font-size: 3rem;
-    font-weight: 100
-}
-.heading-paragraph {
-    display: inline-block;
-    font-size: 2.2rem;
-    font-weight: 100;
-}
-.heading-paragraph:hover, .footer-right li a:hover , .footer-left a:hover {
-    text-decoration: underline;
-}
+/* Protocol */
 
-.play {
-    margin-left:1rem;
-    vertical-align: bottom;
-    height: 4rem;
-}
 .protocol {
     display: flex;
 }
