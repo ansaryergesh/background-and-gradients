@@ -1,0 +1,168 @@
+/* Base style */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box }
+
+html {
+  font-size: 62.5%;
+ }
+
+ html, body {
+    overflow-x: hidden;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+
+}  
+ul {
+    list-style-type: none;
+}
+li {
+	display: inline;	
+}
+
+/* header */
+
+
+
+.header {
+    min-width: 100rem;
+	max-width: 140rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header-nav{
+    background-image: url(../images/fon.jpg);
+    background-size: cover;
+    background-position: 50% 100%;
+	height: 75vh;
+}
+
+.nav-bar {
+    position: relative;
+    width: 70%;
+    top: 10%;
+    background: linear-gradient(#9a9a9a, #676767 50%, #808080);
+    border-radius: 5px;
+    margin-bottom: 10rem;
+}
+
+.img-logo {
+    vertical-align: text-bottom;
+    height: 2rem;
+}
+
+
+.nav-bar-li {
+    display: inline-block;
+    width: 10.3%;
+    padding: .5rem 1rem;
+    margin-left:-0.4rem;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);  
+}
+
+.nav-bar-li:last-child {
+    width: 16.2%;
+    margin: 0 auto;
+    border-right: none;
+}
+
+.nav-bar-li:first-child:hover {
+    border-radius: 5px
+}
+.nav-bar-li:not(:last-child):hover{
+    background-color: #4d4d4d;
+}
+
+nav a {
+    margin:0;
+    text-decoration:none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.search-icon {
+    width: 100%;
+    height: 22px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background: transparent url(../images/search.png) no-repeat;
+    background-size: 1.6rem;
+    background-position: 5px 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.heading-text {
+    backface-visibility: hidden;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.heading-main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 100; 
+}
+
+.heading-2 {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100
+}
+.heading-paragraph {
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+.heading-paragraph:hover, .footer-right li a:hover , .footer-left a:hover {
+    text-decoration: underline;
+}
+
+.play {
+    margin-left:1rem;
+    vertical-align: bottom;
+    height: 4rem;
+}
+.protocol {
+    display: flex;
+}
+
+.images {
+    width: 99.9%;
+    height: 99%;
+}
+
+
+.footer {
+    width: 65%;
+    box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.footer-right {
+    float: right;
+    font-size: 1rem;  
+}
+.footer-right li a, .footer-left a {
+    color:blue;
+    text-decoration: none;
+}
+
+.flag {
+    vertical-align: bottom;
+}
+.footer-left {
+    font-size: 1rem;  
+}
