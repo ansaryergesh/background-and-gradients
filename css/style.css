@@ -33,12 +33,7 @@ li {
 
 /* header */
 
-.img-logo {
-    height: 2rem;
-    width: 2rem; 
-    vertical-align: text-bottom;
-    
-}
+
 
 .header {
     min-width: 100rem;
@@ -52,49 +47,60 @@ li {
     background-position: 50% 100%;
 	height: 75vh;
 }
+
 .nav-bar {
-    padding-top: 2rem;
-    padding-bottom: 10rem;
-}
-
-.nav-bar ul {
-    height: 4rem;
-    margin: 0 auto;
+    position: relative;
     width: 70%;
+    top: 10%;
+    background: linear-gradient(#9a9a9a, #676767 50%, #808080);
     border-radius: 5px;
-    align-items: center;
-    background-image: linear-gradient(#808080, #666, #5e5e5e, #707070, #808080);
-
+    margin-bottom: 10rem;
 }
 
-
-
-.nav-bar li  {  
-    display: inline-block;
-    padding: 8.1px 33px;
-    color: #e8e8e8;
-    font-size: 13px;
-    border-right: 1px solid #989898;
-}
-
-.nav-bar li:last-child, .nav-bar li:last-child:hover {
-    border:none;
-    background-image: linear-gradient(#808080, #666, #5e5e5e, #707070, #808080);
-}
-
-.nav-bar li:hover {
-
-    cursor: pointer;
-    background-image: linear-gradient(#242323, rgba(59, 57, 57, 0.74), #313030b9, #2e2d2d62, #5755557a);
-}
-
-
-.box {
-    width: 8rem;
-    border-radius: 10px;
-    background-color: transparent;
-    padding-left: 10px;
+.img-logo {
     vertical-align: text-bottom;
+    height: 2rem;
+}
+
+
+.nav-bar-li {
+    display: inline-block;
+    width: 10.3%;
+    padding: .5rem 1rem;
+    margin-left:-0.4rem;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);  
+}
+
+.nav-bar-li:last-child {
+    width: 16.2%;
+    margin: 0 auto;
+    border-right: none;
+}
+
+.nav-bar-li:first-child:hover {
+    border-radius: 5px
+}
+.nav-bar-li:not(:last-child):hover{
+    background-color: #4d4d4d;
+}
+
+nav a {
+    margin:0;
+    text-decoration:none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.search-icon {
+    width: 100%;
+    height: 22px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background: transparent url(../images/search.png) no-repeat;
+    background-size: 1.6rem;
+    background-position: 5px 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .heading-text {
@@ -140,7 +146,7 @@ li {
 
 
 .footer {
-    width: 70%;
+    width: 65%;
     box-sizing: border-box;
 	margin: 0 auto;
 }
